@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".activities.LogInActivity">
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="207dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Giriş"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_passwordLogin" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Aramıza Katıl"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/txt_email_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="176dp"
+        android:fontFamily="@font/pacifico_regular"
+        android:text="Warm Hearts"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_avatar" />
+
+
+    <EditText
+        android:id="@+id/editText_email_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/rounded_corners"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_login" />
+
+
+    <EditText
+        android:id="@+id/editText_passwordLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/rounded_corners"
+        android:drawableStart="@drawable/ic_lock_white_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email_login" />
+
+    <ImageView
+        android:id="@+id/imageView_avatar"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_lock_white_24dp"
+        android:drawablePadding="5dp"
+        android:src="@drawable/output_onlinepngtools"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

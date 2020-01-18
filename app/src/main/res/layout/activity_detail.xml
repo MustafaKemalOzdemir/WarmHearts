@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    tools:context=".activities.DetailActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="324dp"
+            android:layout_height="224dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="73dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <TextView
+            android:id="@+id/textView_header"
+            android:layout_width="325dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sahibindens Yeni Doğmuş Öküz"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_userName" />
+
+        <TextView
+            android:id="@+id/textView_description_header"
+            android:layout_width="84dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="284dp"
+            android:text="Açıklama:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_header" />
+
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="324dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="44dp"
+            android:text="Öküzümüz 1 aylık olup 5 yaşındakı babası doğurmuğdur. 1000 km bakımları serviste yapılmıştır. Herangi bir hata veya boya söz konusu değildir"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_header" />
+
+        <Button
+            android:id="@+id/button_phone"
+            android:layout_width="148dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginEnd="132dp"
+            android:background="@drawable/rounded_corners"
+            android:drawableStart="@drawable/ic_local_phone_white_24dp"
+            android:drawablePadding="5dp"
+            android:text="5386465140"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_description" />
+
+        <TextView
+            android:id="@+id/textView_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="139dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="CrazyBoy38"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="44dp"
+            android:text="10-Aylık"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_header" />
+
+        <TextView
+            android:id="@+id/textView_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="143dp"
+            android:text="Melikgazi / Kayseri"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_userName" />
+
+        <Button
+            android:id="@+id/buttonSil"
+            android:visibility="invisible"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="164dp"
+            android:text="Sil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_phone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

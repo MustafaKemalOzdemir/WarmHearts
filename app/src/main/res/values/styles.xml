@@ -1,0 +1,15 @@
+<resources>
+
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">#E76550</item>
+    </style>
+
+    <style name="MainActivityStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#E76550</item>
+        <item name="colorPrimary">#E76550</item>
+    </style>
+
+
+
+</resources>

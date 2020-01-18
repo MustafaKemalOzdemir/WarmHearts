@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "964068607530",
+    "firebase_url": "https://warmhearts.firebaseio.com",
+    "project_id": "warmhearts",
+    "storage_bucket": "warmhearts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964068607530:android:510e1ee91724eaf1dbe553",
+        "android_client_info": {
+          "package_name": "com.example.warmhearts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964068607530-gkvp3i7fpk6971kfid72eae289bc1jep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2oZelx7tNyAKr51OQdeYhbBD4gJFb-u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964068607530-gkvp3i7fpk6971kfid72eae289bc1jep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
